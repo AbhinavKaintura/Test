@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <div>This is the home page </div>
-      <a href="./post">Notesss </a>
+      <Link href="./post">Notesss </Link>
     </div>
   );
 }
